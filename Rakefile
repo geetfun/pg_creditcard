@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "pg_creditcard"
   gem.homepage = "http://github.com/drchiu/pg_creditcard"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Dependency library for handling Psigate's credit card object}
+  gem.description = %Q{Dependency library for handling Psigate's credit card object}
   gem.email = "skhchiu@gmail.com"
   gem.authors = ["Simon Chiu"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
