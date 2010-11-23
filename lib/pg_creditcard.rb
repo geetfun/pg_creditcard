@@ -39,7 +39,7 @@ class PgCreditcard
   end
   
   def cardexpyear
-    @year
+    @year[2..3]
   end
   
   private
