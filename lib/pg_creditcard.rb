@@ -26,6 +26,22 @@ class PgCreditcard
     today > expiry
   end
   
+  def cardholder
+    @name
+  end
+  
+  def cardnumber
+    @number
+  end
+  
+  def cardexpmonth
+    @month
+  end
+  
+  def cardexpyear
+    @year
+  end
+  
   private
   
   def set_year(x)
